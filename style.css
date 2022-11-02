@@ -1,0 +1,89 @@
+.top-container {
+  background-color: darkgray;
+}
+
+.sales-pitch {
+  background-color: #333;
+}
+
+.dad-bod-destroyer-stack {
+  background-color: lightgray;
+}
+.dad-bod-destroyer-stack p {
+  font-size: 16px;
+}
+
+.cravings-killer {
+  background-color: rgb(175, 7, 7);
+  color: white;
+}
+.cravings-killer header {
+  font-size: 40px;
+}
+.cravings-killer p {
+  font-size: 20;
+}
+.cravings-killer button {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  width: 100%;
+  max-width: 130px;
+}
+
+.cravings-content {
+  /* padding: 30px, 500px; */
+  padding-left: 350px;
+}
+
+.perf-stats {
+  background-color: gray;
+}
+/* .perf-stats img {
+  width: 100%;
+} */
+.grid-pics {
+  max-width: 165px;
+}
+.promotional {
+  border: solid 5px rgb(235, 49, 49);
+  list-style: none;
+  text-align: center;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+.promotional-content :nth-child(2):not(.free) {
+  background-color: rgb(235, 49, 49);
+  color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+}
+
+/* .list-number {
+  background-color: red;
+  color: white;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+} */
+
+ul {
+  list-style: none;
+}
+.free {
+  border-radius: 0;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+}
+.price-cut {
+  text-decoration: line-through;
+  color: gray;
+}
