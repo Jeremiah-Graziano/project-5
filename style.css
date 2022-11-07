@@ -23,6 +23,12 @@
 .cravings-killer p {
   font-size: 20;
 }
+.product-buttons :nth-child(2) {
+  background-color: transparent;
+  color: white;
+  border: solid white 1px;
+  font-weight: bold;
+}
 .cravings-killer button {
   background-color: white;
   color: black;
@@ -30,6 +36,7 @@
   padding: 10px;
   width: 100%;
   max-width: 130px;
+  font-weight: bold;
 }
 
 .cravings-content {
@@ -37,8 +44,27 @@
   padding-left: 350px;
 }
 
+.superhuman-burn {
+  background-color: black;
+  color: white;
+}
+
+.superhuman-burn header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nightburn {
+  background-color: rgb(52, 9, 52);
+  color: white;
+}
+.nightburn header {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .perf-stats {
-  background-color: gray;
+  background-color: white;
 }
 /* .perf-stats img {
   width: 100%;
@@ -47,11 +73,20 @@
   max-width: 165px;
 }
 .promotional {
+  max-width: 100%;
+  /* width: 50% !important;
+  float: center; */
   border: solid 5px rgb(235, 49, 49);
   list-style: none;
   text-align: center;
   max-width: 990px;
   margin: 0 auto;
+}
+.promotional h2 {
+  background-color: rgb(175, 7, 7);
+  font-size: 35px;
+  color: white;
+  text-transform: uppercase;
 }
 
 .promotional-content :nth-child(2):not(.free) {
@@ -86,4 +121,27 @@ ul {
 .price-cut {
   text-decoration: line-through;
   color: gray;
+}
+
+.plus-much-more p {
+  color: black;
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.plus-much-more button {
+  background-color: black;
+  color: white;
+  line-height: 20px;
+}
+
+.secret-weapon {
+  background-color: lightgray;
+}
+.secret-weapon h3 {
+  font-size: 35px;
+  font-weight: bolder;
+  align-items: center;
+  justify-content: center;
 }
