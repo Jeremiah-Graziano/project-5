@@ -1,9 +1,128 @@
+.top-header {
+  background-color: black;
+  color: white;
+  padding: 25px;
+}
+
+.basic-flex {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  /* width: 10%; */
+  flex-grow: 0.05;
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+
+.contact-icons {
+  display: flex;
+
+  flex-grow: 0.05;
+  justify-content: space-around;
+  align-content: center;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+nav input {
+  margin-left: 15px;
+  background-color: white;
+  border: none;
+}
+
+nav button {
+  background-color: #936c25;
+  color: white;
+  border: none;
+}
+
+nav i {
+  margin-left: 15px;
+}
 .top-container {
+  background-color: #e5e5e5;
+}
+.top-container h2 {
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+}
+
+.top-container strong {
+  text-align: center;
+  font-weight: bold;
+}
+
+.top-container p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.top-container ul i {
+  color: blue;
+}
+
+.top-container p i {
+  color: rgb(255, 211, 0);
+}
+.enlarged-price {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.enlarged-price {
+  background-color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.enlarged-price span {
+  text-decoration: line-through;
+  color: lightgray;
+  font-size: 24px;
+}
+
+.superhuman-message {
+  text-align: left;
+  justify-content: left;
+}
+
+.top-container button {
+  background-color: #e9c518;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 15px;
+}
+
+nav .top-container {
   background-color: darkgray;
 }
 
 .sales-pitch {
-  background-color: #333;
+  background-color: white;
+}
+.sales-pitch p {
+  color: gray;
 }
 
 .dad-bod-destroyer-stack {
@@ -66,12 +185,41 @@
 .perf-stats {
   background-color: white;
 }
-/* .perf-stats img {
-  width: 100%;
-} */
-.grid-pics {
-  max-width: 165px;
+.perf-stats p {
+  font-weight: bold;
+  text-transform: uppercase;
 }
+.perf-stats span {
+  font-weight: bolder;
+  font-size: 40px;
+}
+.perf-stats h3 {
+  margin-top: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.test-class {
+  /* remember to change class name to something better */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.perf-stats img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+}
+/* .grid-pics {
+  max-width: 165px;
+} */
+
 .promotional {
   max-width: 100%;
   /* width: 50% !important;
@@ -134,14 +282,153 @@ ul {
   background-color: black;
   color: white;
   line-height: 20px;
+  padding: 15px;
+  font-weight: bold;
 }
 
 .secret-weapon {
-  background-color: lightgray;
+  background-color: white;
 }
 .secret-weapon h3 {
   font-size: 35px;
   font-weight: bolder;
   align-items: center;
   justify-content: center;
+}
+.secret-weapon ul :nth-child(1) {
+  color: rgb(220, 15, 15);
+}
+
+.secret-weapon ul {
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.secret-weapon-price :nth-child(1) {
+  justify-content: center;
+  font-size: 35px;
+  text-decoration: line-through;
+  color: gray;
+}
+
+.secret-weapon-price :nth-child(3) {
+  font-size: 50px;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+.secret-weapon-price :nth-child(5) {
+  font-size: 25px;
+  justify-content: center;
+  color: rgb(186, 18, 18);
+  font-weight: bold;
+}
+
+.secret-weapon-price button {
+  width: 35%;
+  line-height: 40px;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  background-color: #f2c44f;
+}
+
+.training-days {
+  position: relative;
+  content: attr(data-index);
+}
+
+.training-days li::before {
+  position: absolute;
+  width: 38px;
+  top: 0;
+  left: -41px;
+  align-items: center;
+  justify-content: center;
+  line-height: 38px;
+  text-align: center;
+  content: counter(section);
+  background-color: #ccc;
+  color: #fff;
+}
+.training-days ul {
+  width: 100%;
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: center;
+}
+.training-days strong {
+  color: #d93e3e;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.training-days li {
+  display: flex;
+  position: relative;
+  padding: 10px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-left: #ccc solid 3px;
+  counter-increment: section;
+  background-color: #f2f4f5;
+}
+/* .training-days li::before {
+  counter-increment: step-counter;
+  content: counter(step-counter);
+} */
+
+.training-days h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+}
+
+.training-days h3 {
+  padding-left: 13%;
+  line-height: 75px;
+  font-weight: bolder;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.benefits li::before {
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  color: white;
+  content: counter(section);
+  display: block;
+  border: white solid 1px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.benefits span {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 1px;
+  background-color: white;
+  margin-right: 10px;
+}
+
+.benefits li {
+  background-color: black;
+  margin-bottom: 10px;
+  padding: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: left;
+  counter-increment: section;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.benefits p {
+  margin: 0;
 }
