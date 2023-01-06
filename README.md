@@ -5,5 +5,5 @@ and make the site very dynamic while also having a lot of details to apply with 
 This site also allowed me to reuse my markup and to set the site up so I can my CSS properties to apply to several different sections
 and keep the all the CSS less bulky.
 
-![image](https://user-images.githubusercontent.com/70544056/211079244-b47485eb-cfc7-4ec4-a7fb-bb1254bc2d03.png)
+
 
