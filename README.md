@@ -1,4 +1,4 @@
-# project-5
+# Nutritional Site
 Nutritional Site
 This site is a remade file of the Dad Bod Destroyer Stack. I chose to remake this site because it had plenty of opportunities to apply bootstrap,
 and make the site very dynamic while also having a lot of details to apply with CSS.
